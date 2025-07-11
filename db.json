@@ -1,0 +1,48 @@
+{
+  "employees": [
+    {
+      "id": "da81",
+      "name": "Swkriti",
+      "email": "swikriti@gmail.com",
+      "department": "marketing",
+      "designation": "senior",
+      "userType": "manager",
+      "salary": "5000000",
+      "password": "HELLO",
+      "date": "2025-07-10"
+    },
+    {
+      "id": "5f46",
+      "name": "Ismini ",
+      "email": "ismini@gmail.com",
+      "department": "engineering",
+      "designation": "senior",
+      "userType": "hr",
+      "salary": "5000000",
+      "password": "addnew",
+      "date": "2025-07-10"
+    },
+    {
+      "id": "9a63",
+      "name": "Ismini ",
+      "email": "ismini@gmail.com",
+      "department": "engineering",
+      "designation": "senior",
+      "userType": "hr",
+      "salary": "5000000",
+      "password": "WORLD",
+      "date": "2025-07-11"
+    },
+    {
+      "id": "2759",
+      "name": "Ismini ",
+      "email": "ismini@gmail.com",
+      "department": "marketing",
+      "designation": "senior",
+      "userType": "hr",
+      "salary": "5000000",
+      "password": "try",
+      "date": "2025-07-11"
+    }
+  ]
+}
