@@ -4,13 +4,17 @@ import LoginForm from "./pages/login";
 import Home from './pages/home';
 import Employee from './pages/employee';
 import Dashboard from './pages/dashboard';
+import ProtectedRoute from './components/home/utils/protectedRoute';
 
 function App() {
   return (
     <>
       <Routes>
         <Route path="/" element={<LoginForm/>}/>
-        <Route path="home" element={<Home/>}>
+        <Route path="home" element={
+          <ProtectedRoute>
+            <Home/>
+          </ProtectedRoute>}>
          <Route path="dashboard" element={<Dashboard />} />
           <Route path="employee" element={<Employee/>}/>
         </Route>
