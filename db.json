@@ -21,6 +21,17 @@
       "salary": "5000000",
       "password": "world",
       "date": "2025-07-14"
+    },
+    {
+      "name": "Pranish",
+      "email": "pranish@gmail.com",
+      "department": "sales",
+      "designation": "senior",
+      "userType": "employee",
+      "salary": "50000",
+      "password": "util",
+      "date": "2025-07-15",
+      "id": "aaac"
     }
   ]
 }
